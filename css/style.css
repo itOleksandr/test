@@ -33,7 +33,7 @@ body{
 header{
     display: flex;
 }
-#logo{
+#logoContainer{
     width: 333px;
     height: 100px;
     margin-left: 30px;
