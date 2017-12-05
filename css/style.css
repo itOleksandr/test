@@ -26,7 +26,7 @@ body{
 #wrapper{
     width:1000px;
     background-color: #fff;
-    height: 100vh;
+    height: 1000px;
     margin: auto;
 }
 /* Header************************* */
@@ -72,11 +72,13 @@ input[type=submit]{
 #navigation ul a li{
     text-decoration: none;
     display: inline-block;
-    height: 35px;
-    background: #345667;
+    height: 28px;
     text-align: center;
     margin-left: 30px;
+    text-transform: uppercase;
+    padding-top: 7px;
 }
+
 #navigation ul a #home{
     background: #00aedb;
     width: 92px;
@@ -110,4 +112,35 @@ input[type=submit]{
     background: #898989;
     width: 310px;
     margin-left:-5px;
+}
+/* menu off *************** */
+h1{
+    text-transform: uppercase;
+    font-family: #00aedb;
+}
+#feature_post{
+    margin-left: 30px;
+}
+#feature_post ul a li{
+    display:inline-block;
+    height:35px;
+    text-align: left;
+    text-transform: uppercase;
+}
+#feature_post ul a  #f{
+    background:#00aedb;
+    width:326px;
+    
+}
+#feature_post ul a  #s{
+    background: #f78f1d;
+    width:305px;
+}
+#feature_post ul a  #t{
+    background: #ec098d;
+    width:291px;
+}
+
+.story{
+    display: inline-block;
 }
