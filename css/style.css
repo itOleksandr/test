@@ -29,25 +29,26 @@ body{
     height: 100vh;
     margin: auto;
 }
+/* Header************************* */
 header{
     display: flex;
 }
 #logo{
     width: 333px;
-    height: 150px;
+    height: 100px;
     margin-left: 30px;
     margin-top: 30px;
 }
 #search{
     width: 516px;
-    height: 150px;
+    height: 100px;
 }
 #social{
     width: 150px;
-    height: 150px;
+    height: 100px;
 }
 form{
-    margin: 60px 0 0 0;
+    margin: 73px 0 0 0;
     height: 35px;
 }
 input[type=text]{
@@ -57,9 +58,56 @@ input[type=submit]{
     width: 120px;
     margin:0 0 0 -5px;
     background: #00aedb;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #00aedb;
 }
 #social ul a li{
     text-decoration: none;
     display: inline-block;
     margin-top: 65px;
+}
+/* Header off******************* */
+/* menu ***************************** */
+#navigation ul a li{
+    text-decoration: none;
+    display: inline-block;
+    height: 35px;
+    background: #345667;
+    text-align: center;
+    margin-left: 30px;
+}
+#navigation ul a #home{
+    background: #00aedb;
+    width: 92px;
+}
+#navigation ul a #cinema{
+    background: #8cc63f;
+    width: 92px;
+    margin-left:-5px;
+}
+#navigation ul a #magazine{
+    background: #5261ac;
+    width: 92px;
+    margin-left:-5px;
+}
+#navigation ul a #cssautor_com{
+    background: #00aedb;
+    width: 170px;
+    margin-left:-5px;
+}
+#navigation ul a #topmenu{
+    background: #f78f1d;
+    width: 92px;
+    margin-left:-5px;
+}
+#navigation ul a #archives{
+    background: #ff0000;
+    width: 110px;
+    margin-left:-5px;
+}
+#navigation ul a #contact_us{
+    background: #898989;
+    width: 310px;
+    margin-left:-5px;
 }
