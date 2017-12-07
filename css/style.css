@@ -114,9 +114,10 @@ input[type=submit]{
     margin-left:-5px;
 }
 /* menu off *************** */
+/* ******************top story */
 h1{
     text-transform: uppercase;
-    font-family: #00aedb;
+    color: #00aedb;
 }
 #feature_post{
     margin-left: 30px;
@@ -130,7 +131,7 @@ h1{
 #feature_post ul a  #f{
     background:#00aedb;
     width:326px;
-    
+   
 }
 #feature_post ul a  #s{
     background: #f78f1d;
@@ -140,7 +141,20 @@ h1{
     background: #ec098d;
     width:291px;
 }
-
 .story{
     display: inline-block;
 }
+.pLorem{
+    display: inline-block;
+}
+#loremF{
+    width: 326px;
+}
+#loremS{
+    width: 305px;
+}
+#loremT{
+    width: 291px;
+}
+/* ******************top story off*/
+
