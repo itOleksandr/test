@@ -26,7 +26,7 @@ body{
 #wrapper{
     width:1000px;
     background-color: #fff;
-    height: 1000px;
+    height: 2300px;
     margin: auto;
 }
 /* Header************************* */
@@ -157,4 +157,48 @@ h1{
     width: 291px;
 }
 /* ******************top story off*/
+/* content */
+#content{
+    padding-left: 30px;
+    width: 620px;
+    padding-top: 35px;
+}
+#imageLow{
+    display: flex;
+    padding-top: 10px;
+}
+#mainImg{
+    padding-top: 10px;
+}
+#imgC{
+    border: 1px solid grey;
+    padding-left: 7px;
+}
+#posth1{
+    font-size: 23pt;
+    color: black;
+    font: bold;
+}
+#loremContent{
+    padding-top: 5px;
+}
+#coments ul li {
+    margin-top: 10px;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+#coments ul #firstLi {
+    padding-right: 20px;
+}
+#coments ul #secondLi{
+    padding-right: 339px;
+}
+#coments ul li p{
+    color: grey;
+    font-size: 11pt;
+}
+/* content off*/
+
+
+
 
