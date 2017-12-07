@@ -157,6 +157,9 @@ h1{
     width: 291px;
 }
 /* ******************top story off*/
+#blockForContentAndAside{
+    display: flex;
+}
 /* content */
 #content{
     padding-left: 30px;
@@ -198,7 +201,58 @@ h1{
     font-size: 11pt;
 }
 /* content off*/
+/* topStories */
+aside{
+    width: 290px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 1500px;
+    background-color: #e5dbdb;
+}
+#topStories{
+    display: inline-block;
+}
 
+#menuStories ul a li{
+    display: inline-block;
+    height: 35px;
+    text-decoration: none;
+    color: white;
+    font-size: 10pt;
+    width: 93px;
+}
+#menuStories ul li #fashion{
+    height: 35px;
+}
+#fashion{
+    background-color: #ec098d;
+}
+#cinema{
+    background-color: #f78f1d;
+}
+#television{
+    background-color: #00aedb;
+}
+#FirstB{
+    float: left;
+    padding-right: 5px;
+    
+}
+/* topStories off */
+h2{
+    color: #00aedb;
+}
+.left{
+    float: left;
+    padding-right: 5px;
+}
+#youM{
+    margin-bottom: 10px;
+}
+
+#archives ul {
+   list-style-image: url("images/1/L.png");
+}
 
 
 
