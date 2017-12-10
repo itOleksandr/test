@@ -21,12 +21,14 @@ time, mark, audio, video {
 }
 /********************Fix padding*********************/
 body{
+    background-image: url("../images/bgimg.png");
+    background-repeat: no-repeat;
     background-color: #ebebeb;
 }
 #wrapper{
     width:1000px;
     background-color: #fff;
-    height: 2300px;
+    height: 2320px;
     margin: auto;
 }
 /* Header************************* */
@@ -63,9 +65,12 @@ input[type=submit]{
     border-color: #00aedb;
 }
 #social ul a li{
-    text-decoration: none;
+
     display: inline-block;
     margin-top: 65px;
+}
+#social ul a{
+    text-decoration: none;
 }
 /* Header off******************* */
 /* menu ***************************** */
@@ -77,6 +82,9 @@ input[type=submit]{
     margin-left: 30px;
     text-transform: uppercase;
     padding-top: 7px;
+}
+#navigation ul a{
+    text-decoration: none;
 }
 
 #navigation ul a #home{
@@ -127,7 +135,12 @@ h1{
     height:35px;
     text-align: left;
     text-transform: uppercase;
+    color: white;
 }
+#feature_post ul a{
+    text-decoration: none;
+}
+
 #feature_post ul a  #f{
     background:#00aedb;
     width:326px;
@@ -206,53 +219,123 @@ aside{
     width: 290px;
     margin-left: 30px;
     margin-top: 20px;
-    height: 1500px;
-    background-color: #e5dbdb;
+}
+#topSt{
+    font-size: 12pt;
+    color: white;
+    text-transform: uppercase;
+    margin-left:-180px;
 }
 #topStories{
     display: inline-block;
 }
 
-#menuStories ul a li{
+#menuStories li{
     display: inline-block;
-    height: 35px;
-    text-decoration: none;
-    color: white;
-    font-size: 10pt;
-    width: 93px;
+    height: 28px;
+    padding-top: 7px; 
+
 }
-#menuStories ul li #fashion{
-    height: 35px;
+#menuStories ul a {
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    text-decoration: none;
 }
 #fashion{
     background-color: #ec098d;
+    width: 93px;
 }
 #cinema{
     background-color: #f78f1d;
+    width: 93px;
+    margin-left: -4px;
 }
 #television{
     background-color: #00aedb;
+    margin-left: -4px;
+    width: 104px;
 }
-#FirstB{
-    float: left;
-    padding-right: 5px;
-    
+/*******************Content*/
+#contentStories{
+    padding-left: 90px;
+    padding-top: 10px;
 }
-/* topStories off */
-h2{
-    color: #00aedb;
+#contentStories ul li{
+    list-style-image: url("../images/aside/per.png");
+    margin-bottom: 20px;
 }
-.left{
-    float: left;
-    padding-right: 5px;
+.Lorem{
+    float: right;
 }
-#youM{
-    margin-bottom: 10px;
+.loremP1{
+}
+.loremH2{
+font-size:14pt;
+color: #00aedb;
+}
+/* Content offfffffffffffff*/
+
+/*******************You*/
+/* #youText{
+    font-size: 12pt;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 0 0 0 0 ;
+} */
+#positionItems{
+    padding-left: 90px;
+    padding-top: 10px;
+}
+#you ul li{
+    list-style-image: url("../images/aside/you.png");
+    margin-bottom: 15px;
+}
+.Lorem2{
+    float: right;
 }
 
-#archives ul {
-   list-style-image: url("images/1/L.png");
+/* You offffffffffffffff*/
+
+/* Archives */
+#forAchives{
+    padding-left:20px;
 }
+#archives ul li{
+    list-style-image: url("../images/aside/point.png");
+    margin-bottom:10px;
+}
+/* Archives off */
+/* Tag */
+#tag span{
+    padding-left: 6px;
+}
+.firstStyle{
+text-transform: uppercase;
+font-size: 16pt;
+color:#f78f1d;
+}
+.secondStyle{
+    text-transform: lowercase;
+    font-size:12pt;
+    color: blue;
 
-
+}
+.thirdStyle{
+    text-transform: uppercase;
+    font-size: 12pt;
+    font-style: italic;
+    color: green;
+}
+footer{
+    width: 1000px;
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.603);
+}
+#foot{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 16pt;
+}
 
